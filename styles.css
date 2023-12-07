@@ -3,7 +3,19 @@
 }
 
 body {
-  background-color: #0d7c5e;
+  background-color: #3ca8a1;
+}
+
+main{
+  width: 100vw;
+}
+
+#kiss {
+  width:50%;
+  min-width: 700px;
+  position: fixed;
+  top:0;
+  left:25%;
 }
 
 .cat-head {
@@ -13,10 +25,10 @@ body {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: linear-gradient(#b23030 85%, #45454f 100%);
+  background: linear-gradient(hotpink 55%, fuchsia 85%, white 100%);
   width: 205px;
   height: 180px;
-  border: 1px solid #000;
+ /*border: 1px solid #000;*/
   border-radius: 46%;
 }
 
@@ -30,7 +42,7 @@ body {
   transform: rotate(-45deg);
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
-  border-bottom: 70px solid #5e5e5e;
+  border-bottom: 70px solid hotpink;
 }
 
 .cat-right-ear {
@@ -43,7 +55,7 @@ body {
   border-top-right-radius: 10px;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
-  border-bottom: 70px solid #5e5e5e;
+  border-bottom: 70px solid hotpink;
 }
 
 .cat-left-inner-ear {
