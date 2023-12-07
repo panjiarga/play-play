@@ -35,7 +35,7 @@ main{
 .cat-left-ear {
   position: absolute;
   top: -26px;
-  left: -31px;
+  left: -10px;
   z-index: 1;
   border-top-left-radius: 90px;
   border-top-right-radius: 10px;
